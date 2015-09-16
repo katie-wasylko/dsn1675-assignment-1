@@ -63,7 +63,7 @@ header h1{
 	font-size: .8rem;
 }
 
-.button a.
+.button a,
 .button a:link,
 .button a:visited {
 	display: inline-block;
@@ -138,7 +138,7 @@ article {
 
 h2 {
 	text-align: center;
-	font-size: .9rem;
+	font-size: 1rem;
 	padding: 1rem;
 }
 
@@ -174,4 +174,104 @@ h3 {
 
 .def dd {
 	margin: 0;
+}
+
+.links {
+	text-align: center;
+	padding: 20%;
+	font-size: .5rem;
+}
+
+.links a,
+.links a:link,
+.links a:visited {
+	margin: 1rem;
+	padding: .5rem;
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-size: 0.9rem;
+}
+
+.buy ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+.buy li {
+	margin: 0;
+	padding: 1rem;
+	display: inline;
+}
+
+.buy a,
+.buy a:link,
+.buy a:visited {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: .8rem;
+	text-decoration: none;
+}
+
+.image-wrapper2 {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+.image-wrapper2 h3 {
+	position: absolute;
+	left: 0;
+	top: 5px;
+	padding: 10px
+	border: 1px solid #FFF;
+	width: auto;
+	color: #FFF;
+	margin: 5px;
+	text-align: center;
+	font-size: .8rem;
+}
+
+.image-wrapper2 p {
+	position: absolute;
+	left: 0;
+	top: 50px;
+	padding: 30px
+	width: auto;
+	color: #FFF;
+	margin: 5px;
+	text-align: center;
+	font-size: .5rem
+}
+
+.week ol {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.week .bold {
+	list-style: none;
+	font-size: .5rem;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+}
+
+.week ul {
+	padding: 0;
+	margin: 0;
+	font: .5rem;
+	font-weight: normal;
+}
+
+.week li {
+	font-size: .5rem;
+	list-style-type: none;
+	padding: .2rem
 }
