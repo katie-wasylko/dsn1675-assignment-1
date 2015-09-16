@@ -25,7 +25,7 @@ html {
 
 img {
 	width: 100%;
-    display: block;
+  display: block;
 }
 
 body {
@@ -38,6 +38,7 @@ header{
 	width: 100%;
 	float: left;
 }
+
 .logo {
 	width: 3rem;
 	height: 2rem;
@@ -49,7 +50,7 @@ header h1{
 	margin: .5rem;
 	padding: 0;
 	overflow: hidden;
-	font-size: 1.5rem;
+	font-size: 1rem;
 	font-weight: normal;
 	line-height: normal;
 	text-align: center;
@@ -58,7 +59,8 @@ header h1{
 .button {
 	float: right;
 	margin: 1rem,
-	padding: 0.5rem;
+	padding: .5rem;
+	font-size: .8rem;
 }
 
 .button a.
@@ -66,7 +68,9 @@ header h1{
 .button a:visited {
 	display: inline-block;
 	margin: 1rem;
-	padding: 0.5rem;
+	padding: .5rem;
+	font-size: .8rem;
+
 }
 
 .nav-top {
@@ -92,7 +96,7 @@ header h1{
 	display: inline-block;
 	margin: 0;
 	padding: .5rem;
-	font-size: 0.8rem;
+	font-size: .5rem;
 	text-decoration: none;
 }
 
@@ -111,29 +115,63 @@ header h1{
 	color: #FFF;
 	margin: 5px;
 	text-align: center;
+	font-size: .8rem;
 }
 
 .image-wrapper p {
 	position: absolute;
 	left: 0;
-	top: 70px;
-	padding: 10px
+	top: 50px;
+	padding: 20px
 	border: 1px solid #FFF;
 	width: auto;
 	color: #FFF;
 	margin: 5px;
 	text-align: center;
+	font-size: .5rem
 }
 
 article {
-	margin: 1rem;
-	padding: 0;
+	margin: 0;
+	padding: .5rem;
 }
 
 h2 {
 	text-align: center;
+	font-size: .9rem;
+	padding: 1rem;
 }
 
 h3 {
 	text-align: center;
+	font-size: .7rem;
+}
+
+.def {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.def li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	font-size: .5rem;
+	width: 32%;
+}
+
+.def dl {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+}
+
+.def dt {
+	display: inline;
+	font-weight: bold;
+}
+
+.def dd {
+	margin: 0;
 }
