@@ -309,4 +309,42 @@ footer address{
 	text-decoration: none;
 }
 
-@media only screen and (mid-width: 30em) {
+@media only screen and (min-width: 27em) {
+
+	header h1{
+		font-size: 2rem;
+	}
+
+	.button {
+		font-size: 1rem;
+	}
+
+	.button a,
+	.button a:link,
+	.button a:visited {
+		font-size: 1rem;
+	}
+
+	.nav-top a,
+	.nav-top a:link,
+	.nav-top a:visited {
+		font-size: .8rem;
+	}
+
+	.pictitle {
+		font-size: 1.3rem;
+	}
+
+	.par {
+		font-size: 0.9rem;
+	}
+
+	h2 {
+		font-size: 1.3rem;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+}
