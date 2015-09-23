@@ -213,7 +213,7 @@ p {
 	padding: 0;
 }
 
-.image-wrapper2 h3 {
+.pictitle2 {
 	position: absolute;
 	left: 0;
 	top: 10px;
@@ -226,13 +226,13 @@ p {
 	font-size: 1rem;
 }
 
-.image-wrapper2 p {
+.par2 {
 	position: absolute;
 	left: 0;
 	top: 50px;
 	padding: 15px;
 	width: 100%;
-	color: black;
+	color: white;
 	margin: 5px;
 	text-align: center;
 	font-size: .8rem
@@ -332,11 +332,23 @@ footer address{
 
 	.pictitle {
 		font-size: 1.3rem;
+    padding: 70px;
 	}
 
 	.par {
 		font-size: .9rem;
+    padding: 80px;
 	}
+
+  .pictitle2 {
+    font-size: 1.3rem;
+    padding: 80px;
+  }
+
+  .par2 {
+    font-size: .9rem;
+    padding: 90px;
+  }
 
 	h2 {
 		font-size: 1.3rem;
