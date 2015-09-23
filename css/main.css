@@ -1,26 +1,19 @@
-@charset "utf-8";
-
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-* {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-wedkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
 
 html {
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
 
-    font-size: 100%;
-    font-family: Bakersville, Georgia, Times, serif;
-    color: #2d2e05;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 img {
@@ -30,7 +23,6 @@ img {
 
 body {
 	margin: 0;
-	padding: 0;
 }
 
 header{
@@ -105,26 +97,23 @@ header h1{
 	width: 100%;
 }
 
-.image-wrapper h2 {
+.pictitle {
 	position: absolute;
-	left: 0;
 	top: 5px;
-	padding: 10px
-	border: 1px solid #FFF;
-	width: auto;
+	padding: 10px;
+	width: 100%;
 	color: #FFF;
-	margin: 5px;
+	margin: 5px auto;
 	text-align: center;
 	font-size: .8rem;
 }
 
-.image-wrapper p {
+.par {
 	position: absolute;
 	left: 0;
 	top: 50px;
-	padding: 20px
-	border: 1px solid #FFF;
-	width: auto;
+	padding: 10px;
+	width: 100%;
 	color: #FFF;
 	margin: 5px;
 	text-align: center;
@@ -227,26 +216,26 @@ p {
 .image-wrapper2 h3 {
 	position: absolute;
 	left: 0;
-	top: 5px;
+	top: 10px;
 	padding: 10px
 	border: 1px solid #FFF;
-	width: auto;
-	color: #FFF;
+	width: 100%;
+	color: black;
 	margin: 5px;
 	text-align: center;
-	font-size: .8rem;
+	font-size: 1rem;
 }
 
 .image-wrapper2 p {
 	position: absolute;
 	left: 0;
 	top: 50px;
-	padding: 30px
-	width: auto;
-	color: #FFF;
+	padding: 15px;
+	width: 100%;
+	color: black;
 	margin: 5px;
 	text-align: center;
-	font-size: .5rem
+	font-size: .8rem
 }
 
 .week ol {
@@ -319,3 +308,5 @@ footer address{
 	font-size: .5rem;
 	text-decoration: none;
 }
+
+@media only screen and (mid-width: 30em) {
