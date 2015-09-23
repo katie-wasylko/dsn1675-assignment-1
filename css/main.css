@@ -255,7 +255,6 @@ p {
 .week ul {
 	padding: 0;
 	margin: 0;
-	font: .5rem;
 	font-weight: normal;
 }
 
@@ -268,7 +267,6 @@ p {
 footer {
 	margin: 0;
 	padding: 0;
-	font-size: .5rem;
 }
 
 footer p {
@@ -281,6 +279,7 @@ footer address{
 	margin: 0;
 	padding: 0;
 	text-align: center;
+	font-size: .5rem;
 }
 .nav-bottom {
 	clear: both;
@@ -336,7 +335,7 @@ footer address{
 	}
 
 	.par {
-		font-size: 0.9rem;
+		font-size: .9rem;
 	}
 
 	h2 {
@@ -347,4 +346,36 @@ footer address{
 		font-size: 1rem;
 	}
 
+	.nav-bottom a,
+	.nav-bottom a:link,
+	.nav-bottom a:visited {
+		font-size: .8rem;
+	}
+}
+
+@media only screen and (min-width: 50em) {
+	.links {
+		font-size: 1rem;
+		padding: 30%;
+	}
+
+	.def li {
+		font-size: .8rem;
+	}
+
+	.week .bold {
+		font-size: 1rem;
+	}
+
+	.week li {
+		font-size: .8rem;
+	}
+
+	footer p {
+		font-size: .8rem;
+	}
+
+	footer address {
+		font-size: .8rem;
+	}
 }
